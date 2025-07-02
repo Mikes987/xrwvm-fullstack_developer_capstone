@@ -30,8 +30,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'https://misk-8000.theianext-0-labs-prod-misc-tools-us-east-0.'\
-    'proxy.cognitiveclass.ai'
+    'https://misk-8000.theianext-0-labs-prod-misc-tools-us-east-0.'
+    + 'proxy.cognitiveclass.ai'
 ]
 CSRF_TRUSTED_ORIGINS = [
     'https://misk-8000.theianext-0-labs-prod-misc-tools-us-east-0.'
